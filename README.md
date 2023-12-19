@@ -25,6 +25,13 @@ Contribute, learn, and grow together! Your input is invaluable:
 - 🌟 **GSOC Gems!** Share insights for aspiring GSOC participants.
 - 🤝 **Contribute Anything!** Let's make learning an exciting journey for everyone!
 
+## Contact
+Connect with me on social media:
+- Twitter: [@devhimanshuu](https://twitter.com/devhimanshuu)
+- LinkedIn: [Himanshu Gupta](https://www.linkedin.com/in/himanshu-guptaa/)
+- Email: devhimanshuu@gmail.com
+- Hashnode: [TechSphere](https://techsphere.hashnode.dev/)
+
 Together, let's create an awesome space for learning and collaboration! Join in and let's craft an incredible learning experience!
 
 ---
