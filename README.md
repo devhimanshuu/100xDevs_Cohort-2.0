@@ -13,7 +13,7 @@ Hey there! 👋 This repository is a treasure trove of knowledge gathered during
 - 🔧 **Advanced DevOps**
 - 💼 **Real Company Open Source Contributions**
 
-![A glimpse of our journey](https://github.com/devhimanshuu/100xDevs_Cohort-2.O/cohort.jpeg)
+![A glimpse of our journey](https://github.com/devhimanshuu/100xDevs_Cohort-2.0/blob/main/cohort.jpeg)
 
 ## Join the Learning Adventure!
 
@@ -24,6 +24,13 @@ Contribute, learn, and grow together! Your input is invaluable:
 - 💡 **Share Insights!** Project ideas, tips, and tricks are all welcome.
 - 🌟 **GSOC Gems!** Share insights for aspiring GSOC participants.
 - 🤝 **Contribute Anything!** Let's make learning an exciting journey for everyone!
+
+## Contact
+Connect with me on social media:
+- Twitter: [@devhimanshuu](https://twitter.com/devhimanshuu)
+- LinkedIn: [Himanshu Gupta](https://www.linkedin.com/in/himanshu-guptaa/)
+- Email: devhimanshuu@gmail.com
+- Hashnode: [TechSphere](https://techsphere.hashnode.dev/)
 
 Together, let's create an awesome space for learning and collaboration! Join in and let's craft an incredible learning experience!
 
