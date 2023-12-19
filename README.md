@@ -13,7 +13,7 @@ Hey there! 👋 This repository is a treasure trove of knowledge gathered during
 - 🔧 **Advanced DevOps**
 - 💼 **Real Company Open Source Contributions**
 
-![A glimpse of our journey](https://github.com/devhimanshuu/100xDevs_Cohort-2.O/cohort.jpeg)
+![A glimpse of our journey](https://github.com/devhimanshuu/100xDevs_Cohort-2.0/blob/main/cohort.jpeg)
 
 ## Join the Learning Adventure!
 
