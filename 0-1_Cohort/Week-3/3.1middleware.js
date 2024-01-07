@@ -12,6 +12,11 @@ app.use((req, res, next) => {
   return res.json({ msg: "hello from middleware-1" });
   next();
 });
+app.use((req, res, next) => {
+  console.log("hello from middleare-2");
+  return res.json({ msg: "hello from middleware-2" });
+  next();
+});
 
 //routers
 app.get("/users", (req, res) => {
