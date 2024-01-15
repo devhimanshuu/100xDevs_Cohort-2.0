@@ -1,0 +1,14 @@
+{
+  "name": "week-3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "3.1middleware.js",
+  "scripts": {
+    "start": "npm 3.1middleware.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
