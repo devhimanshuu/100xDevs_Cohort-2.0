@@ -1,37 +1,50 @@
 /* eslint-disable react/prop-types */
-import React, { useState } from "react";
+import { useState } from "react";
+let counter = 4;
 function App() {
-  return (
-    <div>
-      <HeaderWithButton />
-      <Header title="Himanshu-2"></Header>
-      <Header title="Himanshu-3"></Header>
-      <Header title="Himanshu-4"></Header>
-      <Header title="Himanshu-5"></Header>
-      <Header title="Himanshu-6"></Header>
-    </div>
-  );
-}
+  const [todos, setTodos] = useState([
+    {
+      id: 1,
+      title: "go to gym ",
+      description: "go to gym today",
+    },
+    {
+      id: 2,
+      title: "go to college",
+      description: "go to college today",
+    },
+    {
+      id: 3,
+      title: "go to cohort ",
+      description: "go to cohort today",
+    },
+  ]);
 
-function HeaderWithButton() {
-  const [title, setTitle] = useState("My name is Himanshu");
-  function updateTitle() {
-    setTitle("My name is " + Math.random());
+  function addTodo() {
+    setTodos([
+      ...todos,
+      {
+        id: counter++,
+        title: Math.random(),
+        description: Math.random(),
+      },
+    ]);
   }
   return (
     <div>
-      <button onClick={updateTitle}>Update the title</button>
-      <Header title={title}></Header>
+      <button onClick={addTodo}>Add a todo</button>
+      {todos.map((todo) => (
+        <Todo key={todo.id} title={todo.title} description={todo.description} />
+      ))}
     </div>
   );
 }
-// function Header({ title }) {
-//   console.log("rendered");
-//   return <div>{title}</div>;
-// }
-const Header = React.memo(function Header({ title }) {
-  console.log("rendered");
-  return <div>{title}</div>;
-});
-
+function Todo({ title, description }) {
+  return (
+    <div>
+      <h1>{title}</h1>
+      <h5>{description}</h5>
+    </div>
+  );
+}
 export default App;
