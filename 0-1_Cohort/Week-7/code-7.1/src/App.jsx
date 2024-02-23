@@ -1,6 +1,8 @@
-/* eslint-disable no-undef */
 import { BrowserRouter, Route, Routes, useNavigate } from "react-router-dom";
 import "./App.css";
+
+//Suspense API , Asynchronous component fetching , asynchronous data fetching
+import { Suspense, lazy } from "react";
 const Landing = lazy(() => import("./components/Landing"));
 const Dashboard = lazy(() => import("./components/Dashboard"));
 
@@ -10,8 +12,22 @@ function App() {
       <BrowserRouter>
         <Appbar />
         <Routes>
-          <Route path="/dashboard" element={<Dashboard />} />
-          <Route path="/" element={<Landing />} />
+          <Route
+            path="/dashboard"
+            element={
+              <Suspense fallback={"Loading..."}>
+                <Dashboard />
+              </Suspense>
+            }
+          />
+          <Route
+            path="/"
+            element={
+              <Suspense fallback="Loading..">
+                <Landing />
+              </Suspense>
+            }
+          />
         </Routes>
       </BrowserRouter>
     </div>
