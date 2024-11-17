@@ -1,0 +1,30 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+// Looking for ways to speed up your queries, or scale easily with your serverless or edge functions?
+// Try Prisma Accelerate: https://pris.ly/cli/accelerate-init
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = " postgresql://postgres:mysecretpassword@localhost:5432/postgres"
+}
+
+model User{
+  id Int @id @default(autoincrement())
+  email String @unique
+  namme String
+  lastName String
+  password String
+}
+
+model Todo{
+  id int @default(autoincrement())
+  title String
+  done Boolean @default(false)
+  description String
+  userId int
+}
